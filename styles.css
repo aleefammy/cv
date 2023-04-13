@@ -1,7 +1,192 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Kanit', sans-serif;
+}
+
 table{
     border-spacing: 0.5em 0.2em;
+    margin: auto;
 }
-.container_center{
+
+
+ul{
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+h1{
+    color: #66BFBF;
+    font-size: 5rem;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+    margin: 0 auto 0 auto; 
+}
+h2{
+    color: #66BFBF;
+    margin-top: 0;
+    font-weight: normal;
+}
+h3{
+    color: #11999E;
+}
+
+p{
+    line-height: 2;
+}
+
+.content-skill p{
+    display: inline-block;
+    margin-top: 0;
+}
+
+a{
+    color: #11999E;
+    line-height: 2;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+hr{
+    border: 1rem dotted #EAF6F6;
+    border-top: 0;
+    margin: 100px auto 100px auto;
+    width: 20%;
+}
+
+.image-cropper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+/* .profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%; //centers the image
+  height: 100%;
+  width: auto;
+} */
+
+.top-container{
+    background-color: rgb(220, 255, 247);
+    margin-bottom: 100px;
+    padding: 7% 0 7% 0;
+    position: relative;
+}
+
+.pro{
+    text-decoration: underline;
+}
+.top-cloud{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 30%;
+}
+
+.intro{
+    color: #40514E;
+}
+
+.skill-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+}
+
+.pic-profile{
+    margin-bottom: 3%;
+}
+
+.pic-skill{
+/*     border-radius: 30%;
+    display: inline-block;
+    width: 25%;
+    height: 25%; */
+
+        display: inline;
+        margin: 0 auto;
+        margin-left: -25%; /*centers the image*/
+        height: 100%;
+        width: auto;
+}
+
+
+.content-skill{
+    display: inline-block;
+    max-width: 35%;
+    padding: 0 5% 0 5%;
+    line-height: 2;
+}
+
+.contact-me p{
+    margin-bottom: 50px;
+}
+
+.btn{
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+    margin: 5rem auto 5rem auto;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .bottom-container{
+    background-color: #66BFBF;
+    margin-top: 50px;
+    padding: 2rem;
+  }
+
+  .bottom-container p{
+    color: #EAF6F6;
+  }
+
+  .footer-link{
+    color: #11999E; 
+    padding: 2rem;
+    text-decoration: none;
+  }
+
+
+
+
+
+  /*      contactme.html style        */
+
+  .container_center{
     width: 100%;
     text-align: center;
 }
@@ -13,14 +198,4 @@ table{
 .container_left_content {
     width: 100%;
     margin: 0 auto;
-}
-.profile_pic{
-/*     max-width: 70%; */
-    height: auto;
-}
-
-table .personal_data{
-    border-style: solid;
-    border-color: black;
-    border: 1px solid;
 }
