@@ -58,21 +58,12 @@ hr{
     width: 20%;
 }
 
-.image-cropper {
+.skills img{
     width: 200px;
     height: 200px;
-    position: relative;
-    overflow: hidden;
     border-radius: 50%;
 }
 
-/* .profile-pic {
-  display: inline;
-  margin: 0 auto;
-  margin-left: -25%; //centers the image
-  height: 100%;
-  width: auto;
-} */
 
 .top-container{
     background-color: rgb(220, 255, 247);
@@ -108,19 +99,6 @@ hr{
 
 .pic-profile{
     margin-bottom: 3%;
-}
-
-.pic-skill{
-/*     border-radius: 30%;
-    display: inline-block;
-    width: 25%;
-    height: 25%; */
-
-        display: inline;
-        margin: 0 auto;
-        margin-left: -25%; /*centers the image*/
-        height: 100%;
-        width: auto;
 }
 
 
